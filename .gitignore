@@ -1,3 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/anime-tracker/node_modules
+/anime-tracker/.pnp
+/anime-tracker/.pnp.js
+
+# testing
+/anime-tracker/coverage
+
+# production
+/anime-tracker/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Logs
 logs
 *.log

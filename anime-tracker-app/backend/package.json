@@ -1,0 +1,31 @@
+{
+  "name": "anime-tracker-backend",
+  "version": "0.0.0",
+  "description": "Backend for the Anime Tracking App, built with Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umarraj008/anime-tracker.git"
+  },
+  "author": "Umar Rajput",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/umarraj008/anime-tracker/issues"
+  },
+  "homepage": "https://github.com/umarraj008/anime-tracker#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  }
+}
